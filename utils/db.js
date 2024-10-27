@@ -50,11 +50,11 @@ dotenv.config(); // Load environment variables from .env file
 
 // ⁡⁢⁣⁢​‌‌‍𝗖𝗿𝗲𝗮𝘁𝗲 𝗠𝘆𝗦𝗤𝗟 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻​⁡
 const connection = mysql.createConnection({
-  host: "localhost", // Your Railway host address
-  user: "root",                              // Username for the database (default: root)
-  password: "", // Your Railway password
-  database: "db",                       // The database name (default: railway)
-  port: 3307,                               // Use the correct port (from Railway, 42172 here)
+  host: "b3tdu39gdn4mtiksgid7-mysql.services.clever-cloud.com", // Your Railway host address
+  user: "ubbpzmfhyjefvaif",                              // Username for the database (default: root)
+  password: "M6dCo9nnMFTJR03ifNY0", // Your Railway password
+  database: "b3tdu39gdn4mtiksgid7",                       // The database name (default: railway)
+  port: 3306,                               // Use the correct port (from Railway, 42172 here)
 });
 
 // ⁡⁢⁣⁢​‌‌‍𝗖𝗼𝗻𝗻𝗲𝗰𝘁 𝘁𝗼 𝗠𝘆𝗦𝗤𝗟​⁡
