@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser())
 app.use(cors({
-    origin: ["https://sretportal.netlify.app"],
+    origin: ["http://localhost:3000"],
     methods: ['GET', 'POST', 'PUT', "DELETE"],
     credentials: true
 }));
